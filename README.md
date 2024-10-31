@@ -2,6 +2,14 @@
 
 Execute a command locally with AWS assumed role credentials.
 
+## Install
+
+Install with Go:
+
+```console
+$ go install github.com/cfunkhouser/awsudo/cmd/awsudo
+```
+
 ## Usage
 
 `awsudo` requires a valid AWS configuration containing credentials capable of
